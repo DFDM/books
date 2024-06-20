@@ -6,21 +6,21 @@
 
 - В `.env` указывается рабочая:
 
-DB_CONNECTION=pgsql
-DB_HOST=127.0.0.1
-DB_PORT=5432
-DB_DATABASE=library
-DB_USERNAME=librarian
-DB_PASSWORD=root
+DB_CONNECTION=pgsql<br>
+DB_HOST=127.0.0.1<br>
+DB_PORT=5432<br>
+DB_DATABASE=library<br>
+DB_USERNAME=librarian<br>
+DB_PASSWORD=root<br>
 
 - В `.env.testing` указывается тестовая:
 
-DB_CONNECTION=pgsql
-DB_HOST=127.0.0.1
-DB_PORT=5432
-DB_DATABASE=library_test
-DB_USERNAME=postgres
-DB_PASSWORD=root
+DB_CONNECTION=pgsql <br>
+DB_HOST=127.0.0.1<br>
+DB_PORT=5432<br>
+DB_DATABASE=library_test<br>
+DB_USERNAME=postgres<br>
+DB_PASSWORD=root<br>
 
 Файлы `.env` не были удалены из git, так как это тестовый проект (в рабочем проекте, разумеется, такого не будет).
 
@@ -40,10 +40,10 @@ http://127.0.0.1:3000/api/documentation#/
 http://127.0.0.1:3000/
 
 - Основные роуты:
-http://127.0.0.1:3000/admin/books
-http://127.0.0.1:3000/admin/authors
-http://127.0.0.1:3000/admin/buyers
-http://127.0.0.1:3000/admin/sales
+http://127.0.0.1:3000/admin/books <br>
+http://127.0.0.1:3000/admin/authors <br>
+http://127.0.0.1:3000/admin/buyers <br>
+http://127.0.0.1:3000/admin/sales <br>
 
 ### Запуск тестов:
 `php artisan test`
