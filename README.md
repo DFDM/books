@@ -29,7 +29,9 @@ DB_PASSWORD=root<br>
 
 4 - Запустить в отдельной консоли `npm run dev`
 
-5 - Запустить в отдельной консоли `php artisan serve --port 3000`
+5 - Подготовить базу данных `php artisan migrate:fresh --seed`
+
+6 - Запустить в отдельной консоли `php artisan serve --port 3000`
 
 ### API Документация:
 http://127.0.0.1:3000/api/documentation#/
