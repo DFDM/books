@@ -33,6 +33,8 @@ DB_PASSWORD=root<br>
 
 6 - Запустить в отдельной консоли `php artisan serve --port 3000`
 
+(Если загружать изображения [книг, авторов] то может понадобится ещё подключение хранилища - `php artisan storage:link`)
+
 ### API Документация:
 http://127.0.0.1:3000/api/documentation#/
 
